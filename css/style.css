@@ -10,8 +10,12 @@ body{
 
 .container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin:0 auto;
     padding: 0 5px;
+}
+
+.container-2{
+    margin-top: 50px;
 }
 
 .debug{
@@ -36,6 +40,7 @@ ul{
     list-style: none;
     color: white;
     padding: 5px 5px;
+    font-size: 13px;
 }
 
 a, a:hover{
@@ -111,7 +116,7 @@ img{
     right: 0;
     background-color: white;
     font-size: 30px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .card-content:hover .heart{
@@ -129,3 +134,18 @@ img{
 }
 
 /* fine main */
+
+/* inizio footer */
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 40px;
+}
+
+.d-flex-2{
+    display: flex;
+    flex-direction: row;
+}
+
+/* fine footer */
